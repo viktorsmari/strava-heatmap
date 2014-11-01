@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="strava.com Android" version="1.1" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+ <metadata>
+  <time>2013-09-11T16:48:27Z</time>
+ </metadata>
+ <trk>
+  <name>Afternoon Ride</name>
+  <trkseg>
+   <trkpt lat="64.1378460" lon="-21.9225040">
+    <ele>26.7</ele>
+    <time>2013-09-11T16:48:27Z</time>
+   </trkpt>
+   <trkpt lat="64.1400240" lon="-21.9260670">
+    <ele>28.8</ele>
+    <time>2013-09-11T16:49:34Z</time>
+   </trkpt>
+   <trkpt lat="64.1400700" lon="-21.9261380">
+    <ele>28.5</ele>
+    <time>2013-09-11T16:49:36Z</time>
+   </trkpt>
+   <trkpt lat="64.1400960" lon="-21.9261550">
+    <ele>28.3</ele>
+    <time>2013-09-11T16:49:37Z</time>
+   </trkpt>
+   <trkpt lat="64.1401300" lon="-21.9261850">
+    <ele>28.1</ele>
+    <time>2013-09-11T16:49:38Z</time>
+   </trkpt>
+   <trkpt lat="64.1409770" lon="-21.9272870">
+    <ele>27.7</ele>
+    <time>2013-09-11T16:50:09Z</time>
+   </trkpt>
+   <trkpt lat="64.1410160" lon="-21.9272960">
+    <ele>27.8</ele>
+    <time>2013-09-11T16:50:10Z</time>
+   </trkpt>
+   <trkpt lat="64.1410630" lon="-21.9273150">
+    <ele>27.9</ele>
+    <time>2013-09-11T16:50:11Z</time>
+   </trkpt>
+   <trkpt lat="64.1411320" lon="-21.9273500">
+    <ele>28.0</ele>
+    <time>2013-09-11T16:50:13Z</time>
+   </trkpt>
+   <trkpt lat="64.1412820" lon="-21.9275140">
+    <ele>28.4</ele>
+    <time>2013-09-11T16:50:19Z</time>
+   </trkpt>
+   <trkpt lat="64.1419330" lon="-21.9282660">
+    <ele>28.9</ele>
+    <time>2013-09-11T16:50:37Z</time>
+   </trkpt>
+   <trkpt lat="64.1419790" lon="-21.9282850">
+    <ele>29.2</ele>
+    <time>2013-09-11T16:50:38Z</time>
+   </trkpt>
+  </trkseg>
+ </trk>
+</gpx>
