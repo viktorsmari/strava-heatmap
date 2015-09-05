@@ -1,25 +1,16 @@
 import glob
 import os
-
-def addCord(a,b):
-	print "new google.maps.LatLng(" + a + "," + b + "),"
-
-content = []
-
-# for filename in glob.glob(os.path.join('files2', '*.gpx')):
-	# with open(filename) as f:
-		# content = f.read().splitlines()
-
+import re
+b = open('rides.dat', 'w')
+b.write('var taxiData =[\n')
+x = []
 for filename in glob.glob(os.path.join('files2', '*.gpx')):
 	with open(filename) as f:
 		for line in f:
 			if "lat" in line:
-				addCord( line[15:25], line[32:42] )
-
-# for item in content:
-	# if "lat" in item:
-		# print item
-	
+				x = re.findall('"([^"]*)"', line )
+				b.write( "new google.maps.LatLng(" + x[0] + "," + x[1] + "),\n")
 
 
-
+b.write(']')
+f.close()
