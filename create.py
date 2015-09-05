@@ -6,7 +6,7 @@ b = open('rides.dat', 'w')
 b.write('var taxiData =[\n')
 x = []
 
-for filename in glob.glob(os.path.join('files/_2015', '*.gpx')):
+for filename in glob.glob(os.path.join('files/', '*.gpx')):
 	with open(filename) as f:
 		for line in f:
 			if "<trkpt lat" in line:
