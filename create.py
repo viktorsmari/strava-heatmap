@@ -14,4 +14,4 @@ for filename in glob.glob(os.path.join('files/', '*.gpx')):
 				b.write( "{location: new google.maps.LatLng(" + x[0] + "," + x[1] + "), weight:1},\n")
 
 b.write(']')
-f.close()
+b.close()
