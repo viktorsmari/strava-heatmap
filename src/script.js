@@ -16,7 +16,11 @@ function initialize() {
   var pointArray = new google.maps.MVCArray(taxiData);
 
   heatmap = new google.maps.visualization.HeatmapLayer({
-    data: pointArray
+    data: pointArray,
+    maxIntensity:1,
+    dissipating:true,
+    opacity:0.4,
+    radius:2
   });
 
   heatmap.setMap(map);
@@ -47,11 +51,11 @@ function changeGradient() {
 }
 
 function changeRadius() {
-  heatmap.set('radius', heatmap.get('radius') ? null : 20);
+  heatmap.set('radius', heatmap.get('radius') ? null : 2);
 }
 
 function changeOpacity() {
-  heatmap.set('opacity', heatmap.get('opacity') ? null : 0.2);
+  heatmap.set('opacity', heatmap.get('opacity') ? null : 0.4);
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
