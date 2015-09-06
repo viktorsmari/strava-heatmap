@@ -11,7 +11,7 @@ for filename in glob.glob(os.path.join('files/', '*.gpx')):
 		for line in f:
 			if "<trkpt lat" in line:
 				x = re.findall('"([^"]*)"', line )
-				b.write( "{location: new google.maps.LatLng(" + x[0] + "," + x[1] + "), weight:1},\n")
+				b.write( "new google.maps.LatLng(" + x[0] + "," + x[1] + "),\n")
 
 b.write(']')
 b.close()
